@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">TicTacConnect</string>
+    <string name="app_name">Tic-Tac Connect</string>
+
+    <string name="title_main">TIC-TAC\nCONNECT</string>
+    <string name="subtitle_main">Гра по Hotspot</string>
+    <string name="btn_play_hotspot">ГРАТИ З ДРУГОМ (HOTSPOT)</string>
+    <string name="btn_play_single">ОДИНОЧНА ГРА</string>
+    <string name="btn_settings">НАЛАШТУВАННЯ</string>
+
+    <string name="btn_restart">РЕСТАРТ</string>
+    <string name="player_you_x">ВИ (X)</string>
+    <string name="player_you_o">ВИ (O)</string>
+    <string name="player_ai_x">ШІ (X)</string>
+    <string name="player_ai_o">ШІ (O)</string>
+    <string name="stats_collapsed">СТАТИСТИКА ▶</string>
+    <string name="stats_expanded">СТАТИСТИКА ▼</string>
+
+    <string name="stats_wins">Перемог: %1$d</string>
+    <string name="stats_draws">Нічиїх: %1$d</string>
+    <string name="stats_losses">Поразок: %1$d</string>
+
+    <string name="msg_you_win">Ви перемогли!</string>
+    <string name="msg_ai_win">ШІ переміг!</string>
+    <string name="msg_draw">Нічия!</string>
+    <string name="msg_timeout">Час вийшов! Ви програли.</string>
+
+    <!-- Hotspot Lobby -->
+    <string name="title_lobby">ПОШУК СУПЕРНИКА</string>
+    <string name="status_idle">Оберіть метод підключення</string>
+    <string name="status_searching">Пошук через %1$s...</string>
+    <string name="status_hosting">Сервер %1$s створено. Очікування гравця...</string>
+    <string name="instruction_lobby">Переконайтеся, що на обох пристроях обрано однаковий метод з\'єднання.</string>
+
+    <string name="btn_create_game">СТВОРИТИ ГРУ (ХОСТ)</string>
+    <string name="btn_scan">СКАНУВАТИ (КЛІЄНТ)</string>
+    <string name="radio_wifi_direct">Wi-Fi Direct</string>
+    <string name="radio_hotspot">Hotspot (Точка доступу)</string>
+
 </resources>
