@@ -1,2 +1,1 @@
-START
-Alex
+ALEX
