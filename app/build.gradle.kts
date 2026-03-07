@@ -3,11 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tictacconnect"
-    compileSdk = 36
+    namespace = "com.example.tic_tac_connect"
+    compileSdk {
+        version = release(36)
+    }
 
     defaultConfig {
-        applicationId = "com.example.tictacconnect"
+        applicationId = "com.example.tic_tac_connect"
         minSdk = 29
         targetSdk = 36
         versionCode = 1
@@ -32,7 +34,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
