@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Налаштування"
+            android:text="@string/title_settings"
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="?attr/colorPrimary"
@@ -27,7 +27,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ваше ім'я (для мультиплеєра)"
+            android:hint="@string/hint_player_name"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginBottom="20dp">
 
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Стиль фішок"
+            android:text="@string/label_game_style"
             android:textStyle="bold"
             android:layout_marginBottom="8dp"/>
 
@@ -60,7 +60,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Х та О" />
+                android:text="@string/style_classic" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnStylePets"
@@ -68,13 +68,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Коти/Собаки" />
+                android:text="@string/style_pets" />
         </com.google.android.material.button.MaterialButtonToggleGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Рівень складності (проти бота)"
+            android:text="@string/label_difficulty"
             android:textStyle="bold" />
 
         <com.google.android.material.slider.Slider
@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:valueFrom="1.0"
-            android:valueTo="3.0"
+            android:valueTo="5.0"
             android:stepSize="1.0"
             android:value="3.0"
             app:tickVisible="true"
@@ -91,7 +91,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Гучність ефектів"
+            android:text="@string/label_volume"
             android:textStyle="bold" />
 
         <com.google.android.material.slider.Slider
@@ -104,21 +104,19 @@
             android:value="50.0"
             android:layout_marginBottom="16dp"/>
 
-        <com.google.android.material.materialswitch.MaterialSwitch
+        <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/switchVibration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Вібрація при ході"
+            android:text="@string/label_vibration"
             android:textSize="16sp"
-            android:textOn="Вкл"
-            android:textOff="Викл"
             android:layout_marginBottom="32dp"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSaveSettings"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:text="Зберегти"
+            android:text="@string/btn_save"
             android:textSize="16sp"
             app:cornerRadius="12dp" />
 
