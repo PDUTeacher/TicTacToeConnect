@@ -16,7 +16,4 @@ https://github.com/Podillia-State-University/tic-tac-toe-wifi
 
 треба підключитися, завантажити собі, зробити власну вітку, якщо будуть якісь питання то пишіть тут:
 
-
-[https://github.com/Podillia-State-University ](https://github.com/Podillia-State-University/tic-tac-toe-wifi/tic-tac-toe-wifi/discussions)
-
-
+https://github.com/Podillia-State-University/tic-tac-toe-wifi/discussions
