@@ -1,4 +1,4 @@
-# TicTacToeConnect: Offline Multiplayer (Wi-Fi Direct / HotSpot) 
+# TicTacToeConnect
 
 Tic-Tac-Toe-Connect — це сучасна інтерпретація класичної гри «Хрестики-нулики», 
 розроблена для гри з друзями в умовах повної відсутності інтернету. 
